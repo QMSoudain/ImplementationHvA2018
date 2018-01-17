@@ -50,14 +50,17 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         //You can change as per the requirement.
 
         //message will contain the Push Message
+
+
+        //Grab data from Firebase notification
         String message = remoteMessage.getData().get("uniqueId");
         String username = remoteMessage.getData().get("username");
         String requestDateTime = remoteMessage.getData().get("requestDateTime");
-        //imageUri will contain URL of the image to be displayed with Notification
-        //If the key AnotherActivity has  value as True then when the user taps on notification, in the app AnotherActivity will be opened.
-        //If the key AnotherActivity has  value as False then when the user taps on notification, in the app MainActivity will be opened.
+
+        //Call method sendNotification to show user notification
         sendNotification(message);
 
+        //Start intent to share data to MainActivity
         intent = new Intent();
         intent.setClass(this,MainActivity.class);
         intent.putExtra("uniqueid", message);
@@ -70,7 +73,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     /**
      * Create and show a simple notification containing the received FCM message.
      */
-
     private void sendNotification(String messageBody) {
         Intent intent = new Intent(this, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
