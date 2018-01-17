@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Implementation</string>
+    <string name="popup_success_title">Yeeeey! :-)</string>
+    <string name="popup_success_message">Your choice has been successfully delivered at the Network Policy Server.</string>
+    <string name="popup_fail_title">Oops.....:-(</string>
+    <string name="popup_fail_message">Unfortunetely, something went wrong when we tried to submit your answer. Please restart the Authentication process on your device.</string>
+</resources>

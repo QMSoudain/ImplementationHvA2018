@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "283763275966",
+    "firebase_url": "https://implappv6.firebaseio.com",
+    "project_id": "implappv6",
+    "storage_bucket": "implappv6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283763275966:android:431cf636d1e0792f",
+        "android_client_info": {
+          "package_name": "implementation.implappv6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283763275966-e2vc5ccrqdqogpdo0r58tso5v1qde1ss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "implementation.implappv6",
+            "certificate_hash": "d92f46172c9b608f1d043d5a6f778e098dbb34d2"
+          }
+        },
+        {
+          "client_id": "283763275966-g58tsa849o6u30642ff1i7m9l57k7enb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQCeh-Q8R4P5eDdnpVLnxMe1emmPhdanM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283763275966-g58tsa849o6u30642ff1i7m9l57k7enb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
